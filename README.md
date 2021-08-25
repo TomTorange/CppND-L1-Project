@@ -8,7 +8,8 @@ The task is to understand the code base and complete where needed to get this fi
 
 <img src="data/Screenshot from 2021-08-25 12-24-28.png" > <img src="data/Screenshot from 2021-08-25 12-25-24.png" /> 
 
-##Project Tasks
+
+## Project Tasks
 
 * Task L1.1 : In the base class TrafficObject, set up a thread barrier in its destructor that ensures that all the thread objects in the member vector _threads are joined.
 * Task L1.2 : In the Vehicle class, start a thread with the member function drive and the object this as the launch parameters. Also, add the created thread into the _thread vector of the parent class.
