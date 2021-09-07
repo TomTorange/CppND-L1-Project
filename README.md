@@ -1,4 +1,4 @@
-#CppND-L1-Project
+# CppND-L1-Project
 
 This project is the first step in final project for the Concurrency Part of the Udacity C++ Nanodegree. This is a concurrent traffic simulation and the purpose is to simulate traffic in a city grid with vehicles, streets and intersections. Vehicles drive around randomly and change direction at each intersectoin. Each object in the city grid will run independently in its own thread.
 
