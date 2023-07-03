@@ -7,6 +7,7 @@
 #include "Intersection.h"
 #include "Graphics.h"
 
+
 // NYC
 void createTrafficObjects(std::vector<std::shared_ptr<Street>> &streets, std::vector<std::shared_ptr<Intersection>> &intersections, std::vector<std::shared_ptr<Vehicle>> &vehicles, std::string &filename, int nVehicles)
 {
@@ -78,7 +79,7 @@ int main()
   
     // Task L1.3 : Vary the number of simulated vehicles and use the top function on the terminal or 
     // the task manager of your system to observe the number of threads used by the simulation.   
-    int nVehicles = 2;
+    int nVehicles = 3;
     createTrafficObjects(streets, intersections, vehicles, backgroundImg, nVehicles);
 
     /* PART 2 : simulate traffic objects */

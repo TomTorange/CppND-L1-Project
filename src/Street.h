@@ -3,6 +3,7 @@
 
 #include "TrafficObject.h"
 
+
 // forward declaration to avoid include cycle
 class Intersection;
 
