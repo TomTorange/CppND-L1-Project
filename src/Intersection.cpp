@@ -8,7 +8,6 @@
 #include "Intersection.h"
 #include "Vehicle.h"
 
-
 Intersection::Intersection()
 {
     _type = ObjectType::objectIntersection;

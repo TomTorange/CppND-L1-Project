@@ -28,7 +28,8 @@ void Vehicle::simulate()
 {
     // Task L1.2 : Start a thread with the member function „drive“ and the object „this“ as the launch parameters. 
     // Also, add the created thread into the _thread vector of the parent class.
-    _threads.emplace_back(thread(&Vehicle::drive, this)); 
+    std::this_thread::sleep_for(std::chrono::milliseconds(5));
+    _threads.emplace_back(&Vehicle::drive, this);
 }
 
 // virtual function which is executed in a thread
