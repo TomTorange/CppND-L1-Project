@@ -6,7 +6,7 @@ The task is to understand the code base and complete where needed to get this fi
 
 ## Code Overview
 
-<img src="data/Screenshot from 2021-08-25 12-24-28.png" > <img src="data/Screenshot from 2021-08-25 12-25-24.png" /> 
+<img src="data/Screenshot from 12-24-28.png" > <img src="data/Screenshot from 12-25-24.png" /> 
 
 
 ## Project Tasks
